@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ejemploDC4="http://www.example.org/ejemploDC4" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_nkO9MFuuEe2Iia4SD4UAZA" selectedViews="_VKa30FuvEe2Iia4SD4UAZA" version="15.0.0.202201261500">
+    <semanticResources>My.ejemplodc4</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_VKa30FuvEe2Iia4SD4UAZA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_AOQm0GIZEe2xxce63dalNQ" name="new diagramaPrincipal" repPath="#_AOPYsGIZEe2xxce63dalNQ" changeId="1e0a35c7-2bcc-433c-9dc5-a010f1891dc4">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']"/>
+        <target xmi:type="ejemploDC4:DiagramaClases" href="My.ejemplodc4#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_AOPYsGIZEe2xxce63dalNQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_AOR08GIZEe2xxce63dalNQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_AOR08WIZEe2xxce63dalNQ" type="Sirius" element="_AOPYsGIZEe2xxce63dalNQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_AO-YgGIZEe2xxce63dalNQ" type="2002" element="_AOTqIGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_AO-_kGIZEe2xxce63dalNQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_AO-_kWIZEe2xxce63dalNQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_APA0wGIZEe2xxce63dalNQ" type="3009" element="_AOU4QGIZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APBb0GIZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APCp8GIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APG7ZGIZEe2xxce63dalNQ" type="3010" element="_AOc0EGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APG7ZWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APG7ZmIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APHicGIZEe2xxce63dalNQ" type="3010" element="_AOfQUGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APHicWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APHicmIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APHic2IZEe2xxce63dalNQ" type="3010" element="_AOkv4GIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APHidGIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APHidWIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APIJgGIZEe2xxce63dalNQ" type="3010" element="_AOlW8WIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APIJgWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APIJgmIZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APCp8WIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APCp8mIZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APA0wWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APA0wmIZEe2xxce63dalNQ" x="180" y="209"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_APDRAGIZEe2xxce63dalNQ" type="3009" element="_AOVfUWIZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APD4EGIZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APD4EWIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APIJg2IZEe2xxce63dalNQ" type="3010" element="_AOmlEGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APIJhGIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APIJhWIZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APD4EmIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APD4E2IZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APDRAWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APDRAmIZEe2xxce63dalNQ" x="180" y="29"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_APD4FGIZEe2xxce63dalNQ" type="3009" element="_AOWGYGIZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APEfIGIZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APEfIWIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APIwkGIZEe2xxce63dalNQ" type="3010" element="_AOnzMGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APIwkWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APIwkmIZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APEfImIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APEfI2IZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APD4FWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APD4FmIZEe2xxce63dalNQ" x="30" y="419"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_APEfJGIZEe2xxce63dalNQ" type="3009" element="_AOWGY2IZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APEfJ2IZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APEfKGIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APJXoGIZEe2xxce63dalNQ" type="3010" element="_AOpoYGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APJXoWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APJXomIZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APEfKWIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APEfKmIZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APEfJWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APEfJmIZEe2xxce63dalNQ" x="220" y="629"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_APFGMGIZEe2xxce63dalNQ" type="3009" element="_AOaX0GIZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APFGM2IZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APFGNGIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APJXo2IZEe2xxce63dalNQ" type="3010" element="_AOq2gGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APJ-sGIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APJ-sWIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APJ-smIZEe2xxce63dalNQ" type="3010" element="_AOrdkWIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APJ-s2IZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APJ-tGIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APJ-tWIZEe2xxce63dalNQ" type="3010" element="_AOsrsGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APJ-tmIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APJ-t2IZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APFGNWIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APFGNmIZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APFGMWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APFGMmIZEe2xxce63dalNQ" x="440" y="419"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_APFtQGIZEe2xxce63dalNQ" type="3009" element="_AObl8GIZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APFtQ2IZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APFtRGIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APKlwGIZEe2xxce63dalNQ" type="3010" element="_AOt50GIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APKlwWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APKlwmIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APLM0GIZEe2xxce63dalNQ" type="3010" element="_AOvH8WIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APLM0WIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APLM0mIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APMa8GIZEe2xxce63dalNQ" type="3010" element="_AOvvAWIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APMa8WIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APMa8mIZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APFtRWIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APFtRmIZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APFtQWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APFtQmIZEe2xxce63dalNQ" x="700" y="209"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_APGUUGIZEe2xxce63dalNQ" type="3009" element="_AOcNAGIZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APGUU2IZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APGUVGIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APMa82IZEe2xxce63dalNQ" type="3010" element="_AOw9IGIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APMa9GIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APMa9WIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APNCAGIZEe2xxce63dalNQ" type="3010" element="_AOyLQWIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APNCAWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APNCAmIZEe2xxce63dalNQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_APNCA2IZEe2xxce63dalNQ" type="3010" element="_AOyyUWIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APNCBGIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APNCBWIZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APGUVWIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APGUVmIZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APGUUWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APGUUmIZEe2xxce63dalNQ" x="440" y="209"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_APGUV2IZEe2xxce63dalNQ" type="3009" element="_AOcNA2IZEe2xxce63dalNQ">
+              <children xmi:type="notation:Node" xmi:id="_APG7YGIZEe2xxce63dalNQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_APG7YWIZEe2xxce63dalNQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_APNpEGIZEe2xxce63dalNQ" type="3010" element="_AOzZYWIZEe2xxce63dalNQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_APNpEWIZEe2xxce63dalNQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_APNpEmIZEe2xxce63dalNQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_APG7YmIZEe2xxce63dalNQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_APG7Y2IZEe2xxce63dalNQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_APGUWGIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APGUWWIZEe2xxce63dalNQ" x="440" y="29"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_AO-_kmIZEe2xxce63dalNQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_AO-_k2IZEe2xxce63dalNQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_AO-YgWIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AO-YgmIZEe2xxce63dalNQ" x="260" y="5" width="937" height="808"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_AOR08mIZEe2xxce63dalNQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_APOQIGIZEe2xxce63dalNQ" type="4001" element="_AO0ngGIZEe2xxce63dalNQ" source="_APA0wGIZEe2xxce63dalNQ" target="_APDRAGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APOQJGIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APOQJWIZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APOQJmIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APOQJ2IZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APOQKGIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APOQKWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APOQIWIZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APOQImIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APOQI2IZEe2xxce63dalNQ" points="[-1, 0, -1, 60]$[-1, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APO3MGIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APO3MWIZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_APO3MmIZEe2xxce63dalNQ" type="4001" element="_AO0niWIZEe2xxce63dalNQ" source="_APD4FGIZEe2xxce63dalNQ" target="_APA0wGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APO3NmIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APO3N2IZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APO3OGIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APO3OWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APO3OmIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APO3O2IZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APO3M2IZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APO3NGIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APO3NWIZEe2xxce63dalNQ" points="[-1, 0, -182, 60]$[180, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APPeQGIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APPeQWIZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_APPeQmIZEe2xxce63dalNQ" type="4001" element="_AO11pGIZEe2xxce63dalNQ" source="_APEfJGIZEe2xxce63dalNQ" target="_APFGMGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APPeRmIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APPeR2IZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APPeSGIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APPeSWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APQFUGIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APQFUWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APPeQ2IZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APPeRGIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APPeRWIZEe2xxce63dalNQ" points="[-1, 0, -222, 60]$[220, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APQFUmIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APQFU2IZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_APQFVGIZEe2xxce63dalNQ" type="4001" element="_AO2csGIZEe2xxce63dalNQ" source="_APEfJGIZEe2xxce63dalNQ" target="_APA0wGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APQsYGIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APQsYWIZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APQsYmIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APQsY2IZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APQsZGIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APQsZWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APQFVWIZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APQFVmIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APQFV2IZEe2xxce63dalNQ" points="[-1, 0, 38, 270]$[-2, -210, 37, 60]$[-40, -270, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APRTcGIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APRTcWIZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_APRTcmIZEe2xxce63dalNQ" type="4001" element="_AO4R4GIZEe2xxce63dalNQ" source="_APEfJGIZEe2xxce63dalNQ" target="_APD4FGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APR6gGIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APR6gWIZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APR6gmIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APR6g2IZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APR6hGIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APR6hWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APRTc2IZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APRTdGIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APRTdWIZEe2xxce63dalNQ" points="[-1, 0, 219, 60]$[-221, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APR6hmIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APR6h2IZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_APR6iGIZEe2xxce63dalNQ" type="4001" element="_AO448GIZEe2xxce63dalNQ" source="_APFGMGIZEe2xxce63dalNQ" target="_APFtQGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APShkGIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APShkWIZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APShkmIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APShk2IZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APShlGIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APShlWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APR6iWIZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APR6imIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APR6i2IZEe2xxce63dalNQ" points="[-1, 0, -261, 60]$[259, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APShlmIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APShl2IZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_APShmGIZEe2xxce63dalNQ" type="4001" element="_AO44-WIZEe2xxce63dalNQ" source="_APFGMGIZEe2xxce63dalNQ" target="_APGUUGIZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APTIoGIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APTIoWIZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APTIomIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APTIo2IZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APTIpGIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APTIpWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APShmWIZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APShmmIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APShm2IZEe2xxce63dalNQ" points="[-1, 0, -1, 60]$[-1, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APTIpmIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APTIp2IZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_APTvsGIZEe2xxce63dalNQ" type="4001" element="_AO45AmIZEe2xxce63dalNQ" source="_APGUUGIZEe2xxce63dalNQ" target="_APGUV2IZEe2xxce63dalNQ">
+          <children xmi:type="notation:Node" xmi:id="_APTvtGIZEe2xxce63dalNQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APTvtWIZEe2xxce63dalNQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APTvtmIZEe2xxce63dalNQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APTvt2IZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_APTvuGIZEe2xxce63dalNQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_APTvuWIZEe2xxce63dalNQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_APTvsWIZEe2xxce63dalNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_APTvsmIZEe2xxce63dalNQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_APTvs2IZEe2xxce63dalNQ" points="[-1, 0, -1, 60]$[-1, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APUWwGIZEe2xxce63dalNQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_APUWwWIZEe2xxce63dalNQ" id="(0.5050505050505051,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_AO6HEGIZEe2xxce63dalNQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_AO6HEWIZEe2xxce63dalNQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_AOTqIGIZEe2xxce63dalNQ" name="Entities" width="100" height="100">
+      <target xmi:type="ejemploDC4:Paquete" href="My.ejemplodc4#//@paquetes_contenidos.0"/>
+      <semanticElements xmi:type="ejemploDC4:Paquete" href="My.ejemplodc4#//@paquetes_contenidos.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOURMGIZEe2xxce63dalNQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,159,207">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AOU4QGIZEe2xxce63dalNQ" name="Articulo" outgoingEdges="_AO0ngGIZEe2xxce63dalNQ" incomingEdges="_AO0niWIZEe2xxce63dalNQ _AO2csGIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOU4QWIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOc0EGIZEe2xxce63dalNQ" name="descripcion : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOepQGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOfQUGIZEe2xxce63dalNQ" name="foto : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.1"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.1"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOkI0GIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOkv4GIZEe2xxce63dalNQ" name="nombre : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.2"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.2"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOlW8GIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOlW8WIZEe2xxce63dalNQ" name="precio : double">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.3"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@atributos_contenidos.3"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOl-AGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AOVfUWIZEe2xxce63dalNQ" name="Categoria" incomingEdges="_AO0ngGIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.1"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOVfUmIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOmlEGIZEe2xxce63dalNQ" name="nombreCategoria : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.1/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.1/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOnMIGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AOWGYGIZEe2xxce63dalNQ" name="DetalleFactura" outgoingEdges="_AO0niWIZEe2xxce63dalNQ" incomingEdges="_AO4R4GIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.2"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOWGYWIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOnzMGIZEe2xxce63dalNQ" name="cantidad : int">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.2/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.2/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOpBUGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AOWGY2IZEe2xxce63dalNQ" name="Factura" outgoingEdges="_AO11pGIZEe2xxce63dalNQ _AO2csGIZEe2xxce63dalNQ _AO4R4GIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOWGZGIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOpoYGIZEe2xxce63dalNQ" name="nroFactura : int">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOqPcGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AOaX0GIZEe2xxce63dalNQ" name="Cliente" outgoingEdges="_AO448GIZEe2xxce63dalNQ _AO44-WIZEe2xxce63dalNQ" incomingEdges="_AO11pGIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOa-4GIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOq2gGIZEe2xxce63dalNQ" name="apellido : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOrdkGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOrdkWIZEe2xxce63dalNQ" name="dni : int">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@atributos_contenidos.1"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@atributos_contenidos.1"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOsEoGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOsrsGIZEe2xxce63dalNQ" name="nombre : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@atributos_contenidos.2"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@atributos_contenidos.2"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOsrsWIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AObl8GIZEe2xxce63dalNQ" name="Domicilio" incomingEdges="_AO448GIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AObl8WIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOt50GIZEe2xxce63dalNQ" name="calle : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOvH8GIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOvH8WIZEe2xxce63dalNQ" name="numero : int">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5/@atributos_contenidos.1"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5/@atributos_contenidos.1"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOvvAGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOvvAWIZEe2xxce63dalNQ" name=" : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5/@atributos_contenidos.2"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.5/@atributos_contenidos.2"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOwWEGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AOcNAGIZEe2xxce63dalNQ" name="Cuenta" outgoingEdges="_AO45AmIZEe2xxce63dalNQ" incomingEdges="_AO44-WIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOcNAWIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOw9IGIZEe2xxce63dalNQ" name="contraseña : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOyLQGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOyLQWIZEe2xxce63dalNQ" name="fechaFinVigencia : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@atributos_contenidos.1"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@atributos_contenidos.1"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOyyUGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOyyUWIZEe2xxce63dalNQ" name="usuario : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@atributos_contenidos.2"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@atributos_contenidos.2"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AOzZYGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_AOcNA2IZEe2xxce63dalNQ" name="Rol" incomingEdges="_AO45AmIZEe2xxce63dalNQ" width="20" height="15">
+        <target xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.7"/>
+        <semanticElements xmi:type="ejemploDC4:Clase" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.7"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AOcNBGIZEe2xxce63dalNQ" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_AOzZYWIZEe2xxce63dalNQ" name="nombreRol : String">
+          <target xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.7/@atributos_contenidos.0"/>
+          <semanticElements xmi:type="ejemploDC4:Atributo" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.7/@atributos_contenidos.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AO0AcGIZEe2xxce63dalNQ" labelSize="9" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']/@conditionnalStyles.1/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO0ngGIZEe2xxce63dalNQ" name="articuloToCategoria" sourceNode="_AOU4QGIZEe2xxce63dalNQ" targetNode="_AOVfUWIZEe2xxce63dalNQ" beginLabel="*" endLabel="1">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@relaciones_contenidas.0"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.0/@relaciones_contenidas.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO0ngWIZEe2xxce63dalNQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.2/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_AO0ngmIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO0nhGIZEe2xxce63dalNQ" labelSize="12"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO0ng2IZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO0niWIZEe2xxce63dalNQ" name="detalleFacturaToArticulo" sourceNode="_AOWGYGIZEe2xxce63dalNQ" targetNode="_AOU4QGIZEe2xxce63dalNQ" beginLabel="*" endLabel="1">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.2/@relaciones_contenidas.0"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.2/@relaciones_contenidas.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO1OkGIZEe2xxce63dalNQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.2/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_AO1OkWIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO1Ok2IZEe2xxce63dalNQ" labelSize="12"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO1OkmIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO11pGIZEe2xxce63dalNQ" name="facturaToCliente" sourceNode="_AOWGY2IZEe2xxce63dalNQ" targetNode="_AOaX0GIZEe2xxce63dalNQ" beginLabel="*" endLabel="1">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@relaciones_contenidas.0"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@relaciones_contenidas.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO11pWIZEe2xxce63dalNQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.2/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_AO11pmIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO11qGIZEe2xxce63dalNQ" labelSize="12"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO11p2IZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO2csGIZEe2xxce63dalNQ" name="facturaToArticulo" sourceNode="_AOWGY2IZEe2xxce63dalNQ" targetNode="_AOU4QGIZEe2xxce63dalNQ" beginLabel="1" endLabel="1">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@relaciones_contenidas.1"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@relaciones_contenidas.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO3DwGIZEe2xxce63dalNQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.3/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_AO3DwWIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO3Dw2IZEe2xxce63dalNQ" labelSize="12"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO3DwmIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO4R4GIZEe2xxce63dalNQ" name="facturaToDetalleFactura" sourceNode="_AOWGY2IZEe2xxce63dalNQ" targetNode="_AOWGYGIZEe2xxce63dalNQ" endLabel="*">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@relaciones_contenidas.2"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.3/@relaciones_contenidas.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO4R4WIZEe2xxce63dalNQ" sourceArrow="FillDiamond" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.10/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO4R42IZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO4R4mIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO448GIZEe2xxce63dalNQ" name="clienteToDomicilio" sourceNode="_AOaX0GIZEe2xxce63dalNQ" targetNode="_AObl8GIZEe2xxce63dalNQ" beginLabel="1" endLabel="1">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@relaciones_contenidas.0"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@relaciones_contenidas.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO448WIZEe2xxce63dalNQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.3/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_AO448mIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO449GIZEe2xxce63dalNQ" labelSize="12"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO4482IZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO44-WIZEe2xxce63dalNQ" name="clienteToCuenta" sourceNode="_AOaX0GIZEe2xxce63dalNQ" targetNode="_AOcNAGIZEe2xxce63dalNQ" beginLabel="1" endLabel="1">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@relaciones_contenidas.1"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.4/@relaciones_contenidas.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO44-mIZEe2xxce63dalNQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.3/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_AO44-2IZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO44_WIZEe2xxce63dalNQ" labelSize="12"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO44_GIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AO45AmIZEe2xxce63dalNQ" name="cuentaToRol" sourceNode="_AOcNAGIZEe2xxce63dalNQ" targetNode="_AOcNA2IZEe2xxce63dalNQ" beginLabel="*" endLabel="*">
+      <target xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@relaciones_contenidas.0"/>
+      <semanticElements xmi:type="ejemploDC4:Relacion" href="My.ejemplodc4#//@paquetes_contenidos.0/@clasificadores_contenidos.6/@relaciones_contenidas.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AO45A2IZEe2xxce63dalNQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_AO45BGIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AO45BmIZEe2xxce63dalNQ" labelSize="12"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_AO45BWIZEe2xxce63dalNQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_AOP_wGIZEe2xxce63dalNQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/metamodelo.design/description/metamodelo.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer"/>
+    <target xmi:type="ejemploDC4:DiagramaClases" href="My.ejemplodc4#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

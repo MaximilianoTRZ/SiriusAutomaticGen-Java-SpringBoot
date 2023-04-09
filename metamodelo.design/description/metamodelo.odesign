@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:validation="http://www.eclipse.org/sirius/description/validation/1.1.0" name="metamodelo" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="diagramaPrincipal" label="diagramaPrincipal" domainClass="ejemploDC4::DiagramaClases" enablePopupBars="true">
+      <validationSet>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="Clases con mismo nombre" level="ERROR" message="Existen clases iguales" targetClass="ejemploDC4::Clasificador">
+          <audits auditExpression="aql:self.eContainer().clasificadores_contenidos->select(i | i.nombre = self.nombre)->size()=1"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="Paquete con mismo nombre" level="ERROR" message="Existen paquetes iguales" targetClass="ejemploDC4::Paquete">
+          <audits auditExpression="aql:self.eContainer().paquetes_contenidos->select(i | i.nombre = self.nombre)->size()=1"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="Atributos iguales en una clase" level="ERROR" targetClass="ejemploDC4::Atributo">
+          <audits auditExpression="aql:self.eContainer().atributos_contenidos->select(a | a.nombre = self.nombre)->size()=1"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="Clasificadores con nombre vacio" level="ERROR" targetClass="ejemploDC4::Clasificador">
+          <audits auditExpression="aql:self.nombre&lt;>''"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="Paquete con nombre vacio" level="ERROR" message="Paquete con nombre vacio" targetClass="ejemploDC4::Paquete">
+          <audits auditExpression="aql:self.nombre&lt;>''"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="Atributo con nombre vacio" level="ERROR" message="Atributo con nombre vacio" targetClass="ejemploDC4::Atributo">
+          <audits auditExpression="aql:self.nombre&lt;>''"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="Operacion con nombre vacio" level="ERROR" message="Operacion con nombre vacio" targetClass="ejemploDC4::Operacion">
+          <audits auditExpression="aql:self.nombre&lt;>''"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="relacion repetida" level="ERROR" message="relacion repetida" targetClass="ejemploDC4::Relacion">
+          <audits auditExpression="aql:self.eContainer().relaciones_contenidas->select(a | a.origen = self.origen and a.destino=self.destino )->size()=1"/>
+        </ownedRules>
+      </validationSet>
+      <defaultLayer name="Default">
+        <edgeMappings name="Relacion" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']" targetFinderExpression="feature:destino" sourceFinderExpression="feature:origen" domainClass="ejemploDC4::Relacion" useDomainElement="true">
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='unidireccional' and self.multiplicidad.toString()='OneToMany'">
+            <style sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='unidireccional' and self.multiplicidad.toString()='ManyToMany'">
+            <style sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='unidireccional' and self.multiplicidad.toString()='ManyToOne'">
+            <style sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='unidireccional' and self.multiplicidad.toString()='OneToOne'">
+            <style sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='bidireccional' and self.multiplicidad.toString()='OneToMany'">
+            <style targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='bidireccional' and self.multiplicidad.toString()='ManyToMany'">
+            <style targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='bidireccional' and self.multiplicidad.toString()='ManyToOne'">
+            <style targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='bidireccional' and self.multiplicidad.toString()='OneToOne'">
+            <style targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <beginLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </beginLabelStyleDescription>
+              <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='agregacion'  and self.multiplicidad.toString()='OneToMany'">
+            <style sourceArrow="Diamond" targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='agregacion' and self.multiplicidad.toString()='OneToOne'">
+            <style sourceArrow="Diamond" targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='composicion'  and self.multiplicidad.toString()='OneToMany'">
+            <style sourceArrow="FillDiamond" targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="*">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.tipo.toString()='composicion'  and self.multiplicidad.toString()='OneToOne'">
+            <style sourceArrow="FillDiamond" targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:rol">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+              <endLabelStyleDescription labelSize="12" labelExpression="1">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </endLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+        </edgeMappings>
+        <edgeMappings name="Implementacion" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Interface']" targetFinderExpression="feature:destino" sourceFinderExpression="feature:origen" domainClass="ejemploDC4::Relacion" useDomainElement="true">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" labelExpression="feature:rol">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Herencia" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']" targetFinderExpression="feature:destino" sourceFinderExpression="feature:origen" domainClass="ejemploDC4::Herencia" useDomainElement="true">
+          <style targetArrow="InputClosedArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Paquete" domainClass="ejemploDC4::Paquete">
+          <subContainerMappings name="Clase" semanticCandidatesExpression="feature:eAllContents" domainClass="ejemploDC4::Clase" childrenPresentation="List">
+            <subNodeMappings name="Atributo" semanticCandidatesExpression="feature:eAllContents" domainClass="ejemploDC4::Atributo">
+              <conditionnalStyles predicateExpression="[visibilidad=TipoVisibilidad::public/]">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="9" labelExpression="aql:self.nombre+' : '+self.tipo" iconPath="/metamodelo.design/iconos/AtributoPublic.GIF" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="[visibilidad=TipoVisibilidad::private/]">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="9" labelExpression="aql:self.nombre+' : '+self.tipo" iconPath="/metamodelo.design/iconos/AtributoPrivate.GIF" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="[visibilidad=TipoVisibilidad::protected/]">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="9" labelExpression="aql:self.nombre+' : '+self.tipo" iconPath="/metamodelo.design/iconos/AtributoProtected.GIF" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </conditionnalStyles>
+            </subNodeMappings>
+            <subNodeMappings name="Operaciones" semanticCandidatesExpression="feature:eAllContents" domainClass="ejemploDC4::Operacion">
+              <conditionnalStyles predicateExpression="[visibilidad=TipoVisibilidad::public/]">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="9" labelExpression="aql:self.nombre+' : '+ self.retorno" iconPath="/metamodelo.design/iconos/OperacionPublic.GIF" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="[visibilidad=TipoVisibilidad::private/]">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="9" labelExpression="aql:self.nombre+' : '+ self.retorno" iconPath="/metamodelo.design/iconos/OperacionPrivate.GIF" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="[visibilidad=TipoVisibilidad::protected/]">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="9" labelExpression="aql:self.nombre+' : '+ self.retorno" iconPath="/metamodelo.design/iconos/OperacionProtected.GIF" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </conditionnalStyles>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" showIcon="false" labelExpression="feature:nombre" widthComputationExpression="20" heightComputationExpression="15">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Interface" semanticCandidatesExpression="feature:eAllContents" domainClass="ejemploDC4::Interface" childrenPresentation="List">
+            <subNodeMappings name="Atributo" semanticCandidatesExpression="feature:eAllContents" domainClass="ejemploDC4::Atributo">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="aql:self.nombre+' : '+self.tipo" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Operaciones" semanticCandidatesExpression="feature:eAllContents" domainClass="ejemploDC4::Operacion">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="aql:self.nombre+' : '+ self.retorno" labelAlignment="LEFT" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="feature:nombre" widthComputationExpression="30" heightComputationExpression="30">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="feature:nombre" widthComputationExpression="100" heightComputationExpression="100">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Elementos">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Paquete" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']" iconPath="/metamodelo.design/iconos/package.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Paquete" referenceName="paquetes_contenidos">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="nombre" valueExpression="aql:'Paquete'+self.eContainer(). paquetes_contenidos -> size()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Clase" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']" iconPath="/metamodelo.design/iconos/Clase.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Clase" referenceName="clasificadores_contenidos">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="nombre" valueExpression="aql:'Clase'+self.eContainer().clasificadores_contenidos-> size()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Interface" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Interface']" iconPath="/metamodelo.design/iconos/Interface.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Interface" referenceName="clasificadores_contenidos">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="nombre" valueExpression="aql:'Interface'+self.eContainer().clasificadores_contenidos-> size()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Atributo" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Atributo']" iconPath="/metamodelo.design/iconos/Atributo.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Atributo" referenceName="atributos_contenidos">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="nombre" valueExpression="aql:'atributo'+self.eContainer().atributos_contenidos-> size()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Operaciones" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']/@subContainerMappings[name='Clase']/@subNodeMappings[name='Operaciones']" iconPath="/metamodelo.design/iconos/Operacion.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Operacion" referenceName="operaciones_contenidas"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Relacion" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Relacion']" iconPath="/metamodelo.design/iconos/Relacion.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Relacion" referenceName="relaciones_contenidas">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="origen" valueExpression="aql:source"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="destino" valueExpression="aql:target"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="rol" valueExpression="aql:source.nombre.toLower()+'To'+target.nombre.toUpperFirst()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Implementacion" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Implementacion']" iconPath="/metamodelo.design/iconos/Implementacion.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Relacion" referenceName="relaciones_contenidas">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="origen" valueExpression="aql:source"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="destino" valueExpression="aql:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Herencia" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@edgeMappings[name='Herencia']" iconPath="/metamodelo.design/iconos/Herencia.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="ejemploDC4::Herencia" referenceName="herencias_contenidas">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="origen" valueExpression="aql:source"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="destino" valueExpression="aql:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Generacion Automatica">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Generar Codigo" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='diagramaPrincipal']/@defaultLayer/@containerMappings[name='Paquete']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="service:generateCode(container)"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="metamodelo.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

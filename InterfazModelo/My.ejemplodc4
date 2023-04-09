@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejemploDC4:DiagramaClases xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ejemploDC4="http://www.example.org/ejemploDC4">
+  <paquetes_contenidos nombre="Entities">
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="Articulo">
+      <atributos_contenidos nombre="descripcion"/>
+      <atributos_contenidos nombre="foto"/>
+      <atributos_contenidos nombre="nombre"/>
+      <atributos_contenidos nombre="precio" tipo="double"/>
+      <relaciones_contenidas rol="articuloToCategoria" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.0" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.1" multiplicidad="ManyToOne"/>
+    </clasificadores_contenidos>
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="Categoria">
+      <atributos_contenidos nombre="nombreCategoria"/>
+    </clasificadores_contenidos>
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="DetalleFactura">
+      <atributos_contenidos nombre="cantidad" tipo="int"/>
+      <relaciones_contenidas rol="detalleFacturaToArticulo" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.2" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.0" multiplicidad="ManyToOne"/>
+    </clasificadores_contenidos>
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="Factura">
+      <atributos_contenidos nombre="nroFactura" tipo="int"/>
+      <relaciones_contenidas rol="facturaToCliente" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.3" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.4" multiplicidad="ManyToOne"/>
+      <relaciones_contenidas rol="facturaToArticulo" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.3" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.0"/>
+      <relaciones_contenidas rol="facturaToDetalleFactura" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.3" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.2" tipo="composicion" multiplicidad="OneToMany"/>
+    </clasificadores_contenidos>
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="Cliente">
+      <atributos_contenidos nombre="apellido"/>
+      <atributos_contenidos nombre="dni" tipo="int"/>
+      <atributos_contenidos nombre="nombre"/>
+      <relaciones_contenidas rol="clienteToDomicilio" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.4" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.5"/>
+      <relaciones_contenidas rol="clienteToCuenta" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.4" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.6"/>
+    </clasificadores_contenidos>
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="Domicilio">
+      <atributos_contenidos nombre="calle"/>
+      <atributos_contenidos nombre="numero" tipo="int"/>
+      <atributos_contenidos/>
+    </clasificadores_contenidos>
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="Cuenta">
+      <atributos_contenidos nombre="contraseña"/>
+      <atributos_contenidos nombre="fechaFinVigencia"/>
+      <atributos_contenidos nombre="usuario"/>
+      <relaciones_contenidas rol="cuentaToRol" origen="//@paquetes_contenidos.0/@clasificadores_contenidos.6" destino="//@paquetes_contenidos.0/@clasificadores_contenidos.7" multiplicidad="ManyToMany"/>
+    </clasificadores_contenidos>
+    <clasificadores_contenidos xsi:type="ejemploDC4:Clase" nombre="Rol">
+      <atributos_contenidos nombre="nombreRol"/>
+    </clasificadores_contenidos>
+  </paquetes_contenidos>
+</ejemploDC4:DiagramaClases>
